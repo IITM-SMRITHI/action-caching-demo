@@ -26,8 +26,7 @@ jobs:
           path: ~/.cache/uv
           key: cache-8e12ac6
 
-      - name: Install dependencies
-        run: uv pip install -r requirements.txt
+      
 
       - name: prime-cache-8e12ac6
         run: |
